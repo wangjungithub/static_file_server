@@ -2,12 +2,6 @@
 
 /*jslint forin:true sub:true anon:true sloppy:true stupid:true nomen:true node:true continue:true*/
 
-/*
- * Copyright (c) 2012, Yahoo! Inc.  All rights reserved.
- * Copyrights licensed under the New BSD License.
- * See the accompanying LICENSE file for terms.
- */
-
 var fs = require("fs");
 var path = require("path");
 var nopt = require("nopt");
@@ -20,7 +14,6 @@ var logger = log4js.getLogger("FileServer");
 var debug = false;
 var serverHost = "localhost";
 var serverPort = 10000;
-var arrowAddress = "";
 var docRoot = "/";
 var parsed = nopt();
 
